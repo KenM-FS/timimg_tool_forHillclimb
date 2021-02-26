@@ -3,8 +3,8 @@ void setup() {
   // disable Timer0 for stable serial com
   TIMSK0 = 0;
   pinMode(2, INPUT);
-  // faster is better, maybe
-  Serial.begin(115200);
+  // initial bps is 9600 in windows
+  Serial.begin(9600);
 }
 
 void loop() {
