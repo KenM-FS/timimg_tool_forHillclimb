@@ -3,6 +3,7 @@ Show current time by photoelectric sensor using Arduino Uno.
 
 Arduino Unoを介した光電センサで現在時刻を表示する．
 
+---
 ## Specifications
 ### Photoelectric Sensor
 [E3JK-RR12-C](https://www.fa.omron.co.jp/product/item/73/) from OMRON
